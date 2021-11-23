@@ -1,0 +1,40 @@
+.section-navbar, .section-footer {
+    height: 100%;
+    background-color: #3a546d;
+    display: flex;
+    align-items: center;
+}
+
+.section-intro, .section-about {
+    background-color: #00bc9c;
+    color: #fff;
+}
+
+.section-intro img {
+    width: 200px;
+}
+
+.section-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.ft-content {
+    font-size: 22px;
+}
+
+.ft-content a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #00bc9c;
+}
+
+.section-copyright {
+    height: 100px;
+    line-height: 50px;
+    background-color: #2c3e50;
+    color: #fff;
+}
+
