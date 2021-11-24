@@ -97,6 +97,14 @@
     border-radius: 50px;
 }
 
+.fab.fa-facebook-f {
+    padding: 10px 14px;
+}
+
+.fab.fa-google-plus-g {
+    padding: 10px 9px;
+}
+
 #link_green {
     font-weight: bold;
     text-decoration: none;
