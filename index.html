@@ -7,16 +7,17 @@
     <title>Bootstrap Freelancer</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
-    <div class="container-fluid section-navbar text-white text-uppercase">
+    <div class="container-fluid section-navbar">
         <div class="container">
             <div class="row">
-                <div class="nav-content col-6 col-md-6 col-lg-6 p-3">start bootstrap</div>
-                <div class="nav-content col-6 col-md-6 col-lg-6 p-3">menu</div>
+                <div class="nav-content col-6 col-sm-6 col-lg-6 p-3">start bootstrap</div>
+                <div class="nav-content row-reverse col-6 col-sm-6 col-lg-6 p-3">menu</div>
             </div>
         </div>
     </div>
@@ -24,12 +25,13 @@
     <div class="container-fluid section-intro">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-sm-12 col-lg-12 ">
-                    <div class="p-4 text-center text-uppercase">
-                        <img src="./img/avatar.svg" alt="avatar image">
-                        <h1 class="m-4 ">start bootstrap</h1>
-                        <h5>graphic artist - web designer -illustrator</h5>
+                <div class="title intro col-12 col-sm-12 col-lg-12 p-4">
+                    <img src="./img/avatar.svg" alt="avatar image">
+                    <h1 class="title mt-4">start bootstrap</h1>
+                    <div class="star-line mb-2">
+                        <span>&#9733;</span>
                     </div>
+                    <h5>graphic artist - web designer - illustrator</h5>    
                 </div>
             </div>
         </div>
@@ -37,60 +39,84 @@
 
     <div class="container-fluid section-portfolio">
         <div class="container">
-            <h2 class="text-center text-uppercase pt-4">portfolio</h2>
+            <h2 class="title">portfolio</h2>
+            <div class="star-line mb-2">
+                <span>&#9733;</span>
+            </div>
             <div class="row">
-                
-                <!-- <img src="./img/cabin.png" alt="" class="img-fluid col-12 col-sm-6 col-lg-4 mb-4">
+                <img src="./img/cabin.png" alt="" class="img-fluid col-12 col-sm-6 col-lg-4 mb-4">
 
-                <img src="./img/cabin.png" alt="" class="img-fluid col-12 col-sm-6 col-lg-4 mb-4"> -->
-                
+                <img src="./img/cake.png" alt="" class="img-fluid col-12 col-sm-6 col-lg-4 mb-4">
+
+                <img src="./img/circus.png" alt="" class="img-fluid col-12 col-sm-6 col-lg-4 mb-4">
+
+                <img src="./img/game.png" alt="" class="img-fluid col-12 col-sm-6 col-lg-4 mb-4">
+
+                <img src="./img/safe.png" alt="" class="img-fluid col-12 col-sm-6 col-lg-4 mb-4">
+
+                <img src="./img/submarine.png" alt="" class="img-fluid col-12 col-sm-6 col-lg-4 mb-4">
             </div>
         </div>
     </div>
 
+<!-- prima soluzione per container laterlamente più stretto rispetto ai precedenti -->
     <div class="container-fluid section-about">
         <div class="container">
-           <div class="row">
-               <h2 class="text-center text-uppercase pt-4">about</h2>
-                
-                <div class="col-12 col-md-6">
-                    <div class="about-info p-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos reprehenderit, amet velit corporis perferendis ipsa nisi esse hic eveniet ea, veritatis facilis ipsam maiores delectus nobis officiis quis, nam necessitatibus?
+            <h2 class="title">about</h2>
+            <div class="star-line mb-2">
+                <span>&#9733;</span>
+            </div>
+
+           <div class="row justify-content-center p-2">
+                <div class="col-9 col-sm-5">
+                    <div class="about-info mb-4 p-3">
+                        Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and Javascript as well as optional LESS stylesheets for easy customization.
                     </div>
                 </div>
                 
-                <div class="col-12 col-md-6">
-                    <div class="about-info p-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos reprehenderit, amet velit corporis perferendis ipsa nisi esse hic eveniet ea, veritatis facilis ipsam maiores delectus nobis officiis quis, nam necessitatibus?
+                <div class="col-9 col-sm-5 col-offset-5">
+                    <div class="about-info mb-4 p-3">
+                        Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
                     </div>
+                </div>  
+
+                <div class="bt-download">
+                    <button type="button" class="btn mb-4"><i class="bi bi-download"></i>Download</button>
                 </div>
            </div>
         </div>
     </div>
 
-    <div class="container-fluid section-form">
-        <div class="container">
-            <div class="row">
-                <h2 class="text-center text-uppercase pt-4">contact me</h2>
-
-                <div class="form mb-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur itaque sunt nulla dignissimos qui dolores accusamus! Corporis, magni minus non alias, rem nobis, fugit deserunt voluptate vel distinctio blanditiis. Praesentium?
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt nostrum unde fugiat reprehenderit vitae atque et quaerat doloremque consequuntur quasi, placeat debitis odio quia adipisci! Ea voluptatem beatae hic quibusdam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime rerum exercitationem iusto dolore natus aperiam tempore a est possimus architecto, itaque dolor molestiae error vero, rem unde expedita. Officiis, rerum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quibusdam illum quo sint, minus veritatis, accusantium blanditiis magnam neque ullam, architecto dolores doloremque assumenda consectetur possimus sed minima quaerat in.
+<!-- seconda soluzione per container lateralemnte più stretto-->
+   <div class="section-form">
+    <div class="form-inner">
+        <div class="container-fluid">
+            <div class="container">
+                <h2 class="title">contact me</h2>
+                <div class="star-line mb-2">
+                    <span>&#9733;</span>
+                </div>
+                <div class="row">
+                    <div class="form mb-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur itaque sunt nulla dignissimos qui dolores accusamus! Corporis, magni minus non alias, rem nobis, fugit deserunt voluptate vel distinctio blanditiis. Praesentium?
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt nostrum unde fugiat reprehenderit vitae atque et quaerat doloremque consequuntur quasi, placeat debitis odio quia adipisci! Ea voluptatem beatae hic quibusdam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime rerum exercitationem iusto dolore natus aperiam tempore a est possimus architecto, itaque dolor molestiae error vero, rem unde expedita. Officiis, rerum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quibusdam illum quo sint, minus veritatis, accusantium blanditiis magnam neque ullam, architecto dolores doloremque assumenda consectetur possimus sed minima quaerat in.
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+       </div>
+   </div>
 
-    <div class="container-fluid section-footer text-center text-white">
+    <div class="container-fluid section-footer p-4">
         <div class="container">
             <div class="row">
-                <div class="ft-content col-12 col-md-4 p-2">LOCATION
-                    <div class="text-capitalize">2215 John Daniel Drive Clark, MO 54243</div>
+                <div class="ft-content col-12 col-sm-4 p-2">LOCATION
+                    <div class="ft-info text-capitalize">2215 John Daniel Drive Clark, MO 54243</div>
                 </div>
-                <div class="ft-content col-12 col-md-4 p-2">AROUND THE WEB
-
+                <div class="ft-content col-12 col-sm-4 p-2">AROUND THE WEB
+                    <div class="ft-info"></div>
                 </div>
-                <div class="ft-content col-12 col-md-4 p-2">ABOUT FREELANCER
-                    <div>Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.</div>
+                <div class="ft-content col-12 col-sm-4 p-2">ABOUT FREELANCER
+                    <div class="ft-info">Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.</div>
                 </div>
         
             </div>
@@ -100,9 +126,7 @@
     <div class="container-fluid section-copyright">
         <div class="container">
             <div class="row">
-                <p class="text-center text-capitalize p-4">copyright © your website 2019</p>
-
-
+                <p class="copyright p-4">copyright © your website 2019</p>
             </div>
         </div>
     </div>
