@@ -1,20 +1,11 @@
-.section-navbar, .section-footer {
+.navbar, .section-footer {
     height: 100%;
     background-color: #3a546d;
-    display: flex;
-    justify-content: flex-start;
 }
 
-.nav-content {
-    font-size: 15px;
-    font-weight: 700;
+.navbar {
     color: #fff;
     text-transform: uppercase;
-}
-
-.nav-content.row-reverse {
-    display: flex;
-    flex-direction: row-reverse;
 }
 
 .section-intro, .section-about {
@@ -40,7 +31,7 @@
 
 .star-line::before,
 .star-line::after {
-    content: "\2015";
+    content: "\2015";  
 }
 
 .img-fluid {
@@ -70,12 +61,13 @@
 
 .btn {
     color: #fff;
-    padding: 5px;
-    font-weight: 600;
-    border: 2px #fff solid;
+    padding: 5px 10px;
 }
 
-.btn:hover{
+.btn.btn_download {
+    border: 2px #fff solid;
+}
+.btn.btn_download:hover{
     background-color: #fff;
 }
 
@@ -84,17 +76,28 @@
     margin:0 auto;
 }
 
+.form-control::placeholder{
+    color: #000;
+}
+
+.btn_send {
+    background-color: #00bc9c;
+}
+
 .ft-content {
     font-size: 15px;
     color: #fff;
     text-align: center;
 }
 
-.ft-info {
-    font-size: 13px;
+.ft-info i {
+    padding: 10px;
+    margin: 5px;
+    border: 1px #fff solid;
+    border-radius: 50px;
 }
 
-.ft-info a {
+#link_green {
     font-weight: bold;
     text-decoration: none;
     color: #00bc9c;
