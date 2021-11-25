@@ -24,14 +24,29 @@
     padding-top: 25px;
 }
 
-.star-line {
+.ms_star {
+    max-width: 400px;
+    min-width: 100%;
+    margin: 30px auto;
+    font-size: 30px;
     text-align: center;
-    font-size: 50px;
 }
 
-.star-line::before,
-.star-line::after {
-    content: "\2015";  
+.ms_star:before,
+.ms_star:after {
+    content: '';  
+    display: inline-block;
+    width: 15%;
+    height: 4px;
+    border-radius: 2px;
+    line-height: 4px;
+    vertical-align: middle;
+    background-color: #fff;
+}
+
+.ms_star.ms_star-blue:before,
+.ms_star.ms_star-blue:after {
+    background-color: #2c3e50;
 }
 
 .img-fluid {
@@ -76,8 +91,16 @@
     margin:0 auto;
 }
 
+.form-control {
+    padding: 10px 0 30px 0;
+    border-top: 0 transparent;
+    border-left: 0 transparent;
+    border-right: 0 transparent;
+}
+
 .form-control::placeholder{
     color: #000;
+    font-size: 20px;
 }
 
 .btn_send {
